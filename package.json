@@ -1,6 +1,8 @@
 {
 	"name": "@rbxts/janitor-extension",
-	"version": "1.0.0-ts.0",
+	"version": "1.0.0-ts.1",
+	"directories": {},
+	"description": "An extension to the default janitor functionalities.",
 	"main": "dist/init.lua",
 	"keywords": ["janitor", "trove", "extension", "utility", "addition"],
 	"author": "kineticwallet",
@@ -9,6 +11,13 @@
 	"files": ["dist", "!**/*.tsbuildinfo"],
 	"publishConfig": {
 		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kineticwallet/roblox-ts-janitor-extension"
+	},
+	"bugs": {
+		"url": "https://github.com/kineticwallet/roblox-ts-janitor-extension/issues"
 	},
 	"packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
 	"devDependencies": {
